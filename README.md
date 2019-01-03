@@ -16,3 +16,14 @@ For this project we were provided with historical sales data for 45 Walmart stor
 
 - Below is the WMAE summary table for the three models:
 
+**Models Used:**
+
+- I first started out with the simplest model, the naive (`naive`) model from the `forecast` library. This model had an average 10 fold *Weighted Mean Absolute Error __(WMAE)__* of around __2777.38__.
+
+- The second model used the seasonal naive (`snaive`) model. This had an average 10 fold WMAE of around 1833.43.
+
+- The third model used was the time-series linear (`tslm`) model. Seasonal and long term trends were accounted for in this model. This had an average 10 fold WMAE of around 1614.61.
+
+**Output:**
+
+- `mymain.R` will output WMAE (*Weighted Mean Absolute Error*) for each fold--10 total folds, for each model. 
