@@ -7,7 +7,8 @@ For this project we were provided with historical sales data for 45 Walmart stor
 **Data Source:** Only `train.csv` from **[Kaggle](https://www.kaggle.com/c/walmart-recruiting-store-sales-forecasting)** was used for this project.
 
 **Preprocessing:** 
--*Singular value decomposition* was performed on the training data using the `preprocess.svd` function that was used in the **[Walmart_Sample_Code.html](https://piazza.com/class_profile/get_resource/jky28ddlhmu2r8/jl33k19o30k5gi)**.
+
+- *Singular value decomposition* was performed on the training data using the `preprocess.svd` function that was used in the **[Walmart_Sample_Code.html](https://piazza.com/class_profile/get_resource/jky28ddlhmu2r8/jl33k19o30k5gi)**.
 
 - The `forecast` library was used to build the models. The models used were the Naive (`naive`), Seasonal Naive (`snaive`) and the Time Series Linear Regression (`tslm`). To keep the process simple, SVD was used on the training data used in all the models.
 
