@@ -14,8 +14,6 @@ For this project we were provided with historical sales data for 45 Walmart stor
 
 - Aside from the model building functions and `preprocess.svd` function, the code from`mymain.R` comes from the code Josh Loyal provided (**[Example_Code_Project2_Josh.html](https://piazza.com/class_profile/get_resource/jky28ddlhmu2r8/jnqq1kbkbx6yy)**). 
 
-- Below is the WMAE summary table for the three models:
-
 **Models Used:**
 
 - I first started out with the simplest model, the naive (`naive`) model from the `forecast` library. This model had an average 10 fold *Weighted Mean Absolute Error __(WMAE)__* of around __2777.38__.
