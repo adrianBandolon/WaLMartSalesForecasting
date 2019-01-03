@@ -13,6 +13,7 @@ The evaluation procedure is formulated to be similar to backtesting in stock tra
 - `trainTestSplitter.R`- this will split `train.csv` to 10 folds to be used for training and testing the models. This is courtesy of Josh Loyal. **[(Example_Code_Project2_Josh.html)](https://piazza.com/class_profile/get_resource/jky28ddlhmu2r8/jnqq1kbkbx6yy)**
 - `evaluationCode.R`- this runs all the 10 folds of each model.
 - `mymain.R`- contains the models being used and all preprocessing performed on the data.
+- Data used can be found in the `data` folder.
 
 **Data Source:** Only `train.csv` from **[Kaggle](https://www.kaggle.com/c/walmart-recruiting-store-sales-forecasting)** was used for this project.
 
